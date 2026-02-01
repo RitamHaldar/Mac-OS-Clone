@@ -3,6 +3,7 @@ import './App.scss'
 import Dock from './Components/dock'
 import Navbar from './Components/Navbar'
 import MacWndow from './Components/Windows/MacWndow'
+import Github from './Components/Windows/Github'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -10,8 +11,7 @@ function App() {
     <main>
       <Navbar/>
       <Dock/>
-      <MacWndow>
-      </MacWndow>
+      <Github/>
     </main>
   )
 }
